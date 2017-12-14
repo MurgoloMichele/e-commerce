@@ -1,0 +1,19 @@
+digraph "Grafico della gerarchia delle classi"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="filtro.FiltroProdotti",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classfiltro_1_1_filtro_prodotti.html",tooltip="Classe base per la creazione di filtri ricerca dei prodotti. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="filtro.Filtro3x2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classfiltro_1_1_filtro3x2.html",tooltip="Filtro di ricerca prodotti in base all&#39;offerta 3x2. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="filtro.FiltroCategoria",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classfiltro_1_1_filtro_categoria.html",tooltip="Filtro di ricerca prodotti in base alla categoria. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="filtro.FiltroMarca",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classfiltro_1_1_filtro_marca.html",tooltip="Filtro di ricerca prodotti in base alla marca. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="filtro.FiltroNome",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classfiltro_1_1_filtro_nome.html",tooltip="Filtro di ricerca prodotti in base al nome. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="filtro.FiltroPrezzo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classfiltro_1_1_filtro_prezzo.html",tooltip="Filtro di ricerca prodotti in base ad una fascia di prezzi. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="filtro.FiltroSconto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classfiltro_1_1_filtro_sconto.html",tooltip="Filtro di ricerca prodotti in base allo sconto. "];
+}

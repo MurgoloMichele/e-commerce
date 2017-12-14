@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['salvaprodotto',['salvaProdotto',['../classprodotti_1_1_prodotto_manager.html#a816da942305f575f1baecdd6e68f56ff',1,'prodotti::ProdottoManager']]],
+  ['salvausers',['salvaUsers',['../classuser_1_1_user_manager.html#a64f9d008db65dccfb11aa737229aa60d',1,'user::UserManager']]],
+  ['setadmin',['setAdmin',['../classuser_1_1_user.html#a1a129f9830bc68f3635ae19ea5fe94ed',1,'user::User']]],
+  ['setcategoria',['setCategoria',['../classprodotti_1_1_prodotto.html#a3a6b0ec45c86d6cfab720008f70e28ff',1,'prodotti::Prodotto']]],
+  ['setcurrentpanel',['setCurrentPanel',['../classgui_1_1_panel_manager.html#a30db38d71a49d317281a412d975d7c55',1,'gui::PanelManager']]],
+  ['setdirty',['setDirty',['../classcarrello_1_1_carrello_manager.html#a6bdcb86cb729b40b819afd3830a38559',1,'carrello::CarrelloManager']]],
+  ['setidprodotto',['setIdProdotto',['../classprodotti_1_1_prodotto.html#a27515c99cc446ab6ad7095525f5a041e',1,'prodotti::Prodotto']]],
+  ['setimmagine',['setImmagine',['../classprodotti_1_1_prodotto.html#a304dcaeaedf2ee2347a69093d4005a4c',1,'prodotti::Prodotto']]],
+  ['setindex',['setIndex',['../classgui_1_1_edit_product_panel.html#ac1cedcfb31993c697907dca31a4d7e91',1,'gui::EditProductPanel']]],
+  ['setmarca',['setMarca',['../classprodotti_1_1_prodotto.html#af4650d0984e9ce0ba388526618c6f888',1,'prodotti::Prodotto']]],
+  ['setnome',['setNome',['../classprodotti_1_1_prodotto.html#a9bb7b2dabf27ad38673b193685a83f3c',1,'prodotti::Prodotto']]],
+  ['setprezzo',['setPrezzo',['../classprodotti_1_1_prodotto.html#a4dd888f432e01039f8b0f5a75ad12302',1,'prodotti::Prodotto']]],
+  ['setsconto',['setSconto',['../classprodotti_1_1_prodotto.html#a7f54f5c809904bd9f2026b68e0667187',1,'prodotti.Prodotto.setSconto()'],['../classprodotti_1_1_prodotto_scontato.html#a9c57f49ebeb04c43c012ed137c47a896',1,'prodotti.ProdottoScontato.setSconto()']]],
+  ['setvisible',['setVisible',['../classgui_1_1_custom_panel.html#ab7cef77df78c7299631dd5fb59946921',1,'gui::CustomPanel']]],
+  ['showallproducts',['showAllProducts',['../classgui_1_1_member_panel.html#af852dc4c4400c56e1a5611e19ed57655',1,'gui::MemberPanel']]],
+  ['signuppanel',['SignUpPanel',['../classgui_1_1_sign_up_panel.html#a7fa464913418a46363d294c4dfcbc45d',1,'gui::SignUpPanel']]],
+  ['statechanged',['stateChanged',['../classgui_1_1_filter_panel.html#a8722fc545ab40876ebc2298cf088c934',1,'gui::FilterPanel']]]
+];

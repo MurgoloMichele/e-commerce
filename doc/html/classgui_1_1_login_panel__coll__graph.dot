@@ -1,0 +1,23 @@
+digraph "gui.LoginPanel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="gui.LoginPanel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="gui.CustomPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgui_1_1_custom_panel.html",tooltip="Classe che implmenta una generica schermata del programma. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="JPanel",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ActionListener",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" panelManager" ,fontname="Helvetica"];
+  Node5 [label="gui.PanelManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgui_1_1_panel_manager.html",tooltip="Classe che implementa la finestra principale del programma. "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="JFrame",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" container" ,fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" signIn\nsignUp" ,fontname="Helvetica"];
+  Node7 [label="JButton",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" username" ,fontname="Helvetica"];
+  Node8 [label="JTextField",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" usernameLabel\npasswordLabel" ,fontname="Helvetica"];
+  Node9 [label="JLabel",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

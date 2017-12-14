@@ -1,0 +1,17 @@
+digraph "gui.EditProductPanel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="gui.EditProductPanel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="gui.AddProductPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgui_1_1_add_product_panel.html",tooltip="Classe che implementa la schermata per l&#39;inserimento di un nuovo prodotto. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="gui.CustomPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgui_1_1_custom_panel.html",tooltip="Classe che implmenta una generica schermata del programma. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="JPanel",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ActionListener",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MouseListener",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

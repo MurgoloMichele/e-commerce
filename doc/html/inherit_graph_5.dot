@@ -1,0 +1,9 @@
+digraph "Grafico della gerarchia delle classi"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="JFrame",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="gui.PanelManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgui_1_1_panel_manager.html",tooltip="Classe che implementa la finestra principale del programma. "];
+}

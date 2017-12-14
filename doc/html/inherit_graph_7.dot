@@ -1,0 +1,7 @@
+digraph "Grafico della gerarchia delle classi"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="user.UserManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classuser_1_1_user_manager.html",tooltip="Classe contentente metodi statici per la gestione del singleton rappresentante l&#39;insieme degli utenti..."];
+}
